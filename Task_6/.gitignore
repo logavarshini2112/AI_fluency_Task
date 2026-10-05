@@ -1,0 +1,21 @@
+# Secrets - NEVER commit these
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
